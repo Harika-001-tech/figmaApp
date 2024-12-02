@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/userprofile.css';
-import './styles/SideBarMenu.css'
+import './styles/SidebarMenu.css'
 import UserProfileCard from './components/UserProfileCard';
 import ConversationTab from './components/ConversationTab';
 import MessageInput from './components/MessageInput';
