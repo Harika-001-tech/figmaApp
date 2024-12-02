@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .sidebar-menu {
+    width: 270px;
+    background-color: #1a1d2e;
+    color: #9ea0b3;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 7px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: #ffffff0d;
+  }
+  
+  .menu-item.active {
+    background-color: #ffffff0d;
+    color: #ffffff;
+  }
+  
+  .menu-item img {
+    margin-right: 18px;
+  }
+  
+  .menu-item span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  
+  

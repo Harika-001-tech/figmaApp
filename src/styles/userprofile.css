@@ -1,0 +1,240 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+  }
+
+  .maincontainer{
+    display: flex;
+    flex: column;
+  }
+  
+  .user-profile-card {
+  
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    border: 1px solid #e0e3f3;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f1729;
+  }
+  
+  .profile-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #676b89;
+  }
+  
+  .profile-section {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .profile-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #676b89;
+  }
+  
+  .profile-item span:last-child {
+    font-weight: 600;
+    color: #0f1729;
+  }
+  
+  .add-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f7fa;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .assign-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0f8bfd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 17.5px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 10px;
+  }
+  
+  .new-widget-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    color: #0f8bfd;
+    border: 1px solid #0f8bfd;
+    cursor: pointer;
+    font-size: 17.5px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 10px;
+  }
+  
+  .tab-container {
+    display: flex;
+    border-bottom: 1px solid rgba(68, 72, 109, 0.1);
+  }
+  
+  .tab-item {
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .tab-item.active {
+    border-color: #0f8bfdff;
+  }
+  
+  .close-icon {
+    margin-left: 10px;
+    color: #676b89ff;
+  }
+  
+  .message-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .input-group {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: rgba(76, 98, 146, 0.04);
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+  }
+  
+  .message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7d7f99;
+  }
+  
+  .attachment-button {
+    background: none;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .send-button {
+    display: flex;
+    align-items: center;
+    background-color: #0f8bfd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 30px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15.75px;
+  }
+  
+  .send-button img {
+    margin-right: 8px;
+  }
+  
+  .action-launcher {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    border: 1px solid #e0e3f3;
+  }
+  
+  h2 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #0f1729;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #4c62920a;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #4c62921a;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #7d7f99;
+    width: 100%;
+  }
+  
+  .action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .action-button {
+    padding: 10px 25px;
+    background-color: #0f8bfd1a;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f8bfd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-action {
+    background-color: #0f8bfd;
+    color: #ffffff;
+  }
+  
+  .action-button:hover {
+    background-color: #e0e7ff;
+  }
+  
+  
